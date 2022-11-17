@@ -1,10 +1,7 @@
 import '../scss/petals.scss'
 
 function Petal() {
-    setTimeout(() => console.log('Initial timeout!'), 1000);
-    return (<div className='petals__petal'>
-        { }
-    </div>)
+    return (<div className='petals__petal'></div>)
 }
 function Petals() {
     return (
