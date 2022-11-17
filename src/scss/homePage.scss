@@ -1,0 +1,33 @@
+@import "default_variables.scss";
+
+.home-page {
+    font-family: $defaultFontFamily;
+    color: $dijitRed;
+
+    &__content-container{
+        position: absolute;
+        bottom: 0px;
+        margin: 15px;
+    }
+
+    &__name-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+        max-width: 526px;
+    }
+
+    &__h1{
+        font-size: 8em;
+        font-weight: 100;
+    }
+
+    &__h2 {
+        font-size: 5.5em;
+        font-weight: 800;
+    }
+    &__p{
+        margin-left: 15px;
+    }
+}
